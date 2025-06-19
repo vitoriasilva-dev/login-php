@@ -1,0 +1,13 @@
+# Workflow rescrito para utilizar o workflow Reutilizável (Corrigido)
+#         uses: profjguilherme-fatec/php-workflows/.github/workflows/login.yml@master
+
+name: CI via Workflow Reutilizável (correção)
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+
+jobs:
+  login:
+    uses: profjguilherme-fatec/php-workflows/.github/workflows/login.yml@master
